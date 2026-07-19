@@ -1,6 +1,5 @@
 
-const targetDate = new Date('2024-10-12');
-
+const targetDate = new Date();
 
 const formattedDate = targetDate.toLocaleDateString('ja-JP', {
   year: 'numeric',
@@ -8,4 +7,4 @@ const formattedDate = targetDate.toLocaleDateString('ja-JP', {
   day: 'numeric'
 });
 
-console.log(formattedDate); 
+console.log(formattedDate);
